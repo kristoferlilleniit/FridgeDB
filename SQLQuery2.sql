@@ -1,0 +1,1 @@
+﻿SELECT FoodInTheFridge.Name FROM FoodType INNER JOIN FoodInTheFridge ON FoodInTheFridge.TypeId = FoodType.Id WHERE FoodType.Id = 2
